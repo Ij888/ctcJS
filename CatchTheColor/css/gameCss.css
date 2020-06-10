@@ -1,0 +1,19 @@
+progress 
+{
+width: 85%;
+height: 25px;
+margin: 50px auto;
+display: block;
+/* Important Thing */
+-webkit-appearance: none;
+border: none;
+}
+
+.button1{background: red;}
+.button2{background: orange;}
+.button3{background: #7fca02;}
+.button4{background: purple;}
+.button5{background: #00A1DD;}
+.button6{background: green;}
+.button7{background: yellow;}
+.button8{background: violet;}

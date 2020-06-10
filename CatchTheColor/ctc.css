@@ -1,0 +1,102 @@
+*{margin:0px; padding:0px;}
+
+body{}
+
+#advisory{display:none;}
+
+body {
+  text-align: center;
+  background: #444;
+  padding: 1rem;
+}
+
+#gameWrapper{margin-top:15%;}
+
+#top-button, #bottom-button{display:;}
+.button
+{
+padding:20px;
+display: inline-block;
+padding: 3.5rem 6rem;
+margin: .75rem;
+text-decoration: none;
+font: bold 1rem Sans-Serif;
+color: black;
+
+}
+
+#menu, #score{font-size:35px; font-family: arial; color:#FFF;}
+
+#menu{float:left;}
+#score{float:right;}
+
+progress 
+{
+width: 85%;
+height: 25px;
+margin: 50px auto;
+display: block;
+/* Important Thing */
+-webkit-appearance: none;
+border: none;
+}
+
+.button1{background: red;}
+.button2{background: orange;}
+.button3{background: #7fca02;}
+.button4{background: purple;}
+.button5{background: #00A1DD;}
+.button6{background: green;}
+.button7{background: yellow;}
+.button8{background: violet;}
+
+
+
+
+@media (max-width:1280px){ /*For my beloved BB Z10*/
+	
+body {
+  text-align: center;
+  background: #222;
+  padding: 1rem;
+}
+
+#gameWrapper{margin-top:20%;}
+
+#top-button, #bottom-button{display:;}
+.button
+{
+display: inline-block;
+padding: 3rem 5.5rem;
+margin: .5rem;
+text-decoration: none;
+font: bold 1rem Sans-Serif;
+color: black;
+
+}
+
+#menu, #score{font-size:35px; font-family: arial; color:#FFF;}
+
+#menu{float:left;}
+#score{float:right;}
+
+progress 
+{
+width: 85%;
+height: 25px;
+margin: 50px auto;
+display: block;
+/* Important Thing */
+-webkit-appearance: none;
+border: none;
+}	
+	
+}
+
+@media (max-width:380px){
+	body{background:#f22;}
+	#advisory
+	{display:block; color:#ff40ff; text-align:center;  font-size:400%;         font-family:Arial; padding:100px 20px 0 20px;}
+	   #menu, #score, #gameWrapper{display:none; }
+}
+	
